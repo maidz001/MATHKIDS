@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+ 
+
+body {
+
+        font-family: 'Fredoka', 'Comic Sans MS', sans-serif;0f8ff;
+
+        margin: 0;
+
+        display: flex;
+
+        justify-content: center;
+
+        min-height: 100vh;
+
+}
+
+ 
+
+.container {
+
+        width: 100%;
+
+        max-width: 480px; /* Kích thước giống điện thoại */
+
+        background: white;
+
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+        min-height: 100vh;
+
+        display: flex;
+
+        flex-direction: column;
+
+}
+
+ 
+
+/* HEADER MÀU CAM */
+
+header {
+
+        background-color: #FF9800;
+
+        color: white;
+
+        padding: 20px;
+
+        text-align: center;
+
+        position: relative;
+
+    border-bottom-left-radius: 20px;
+
+    border-bottom-right-radius: 20px;
+
+        box-shadow: 0 4px 10px rgba(255, 152, 0, 0.3);
+
+}
+
+ 
+
+h1 { margin: 0; font-size: 2rem; letter-spacing: 1px; }
+
+ 
+
+/* Nút Home (ngôi nhà) */
+
+.home-link {
+
+        position: absolute;
+
+        left: 20px;
+
+        top: 50%;
+
+        transform: translateY(-50%);
+
+        text-decoration: none;
+
+        font-size: 1.5rem;
+
+        background: rgba(255,255,255,0.2);
+
+        width: 40px;
+
+        height: 40px;
+
+        border-radius: 50%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        color: white;
+
+        transition: background 0.2s;
+
+}
+
+.home-link:hover { background: rgba(255,255,255,0.4); }
+
+ 
+
+/* PHẦN NỘI DUNG */
+
+.content {
+
+        padding: 20px;
+
+        flex: 1;E MÀU XANH LÁ */
+
+.menu-btn {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        background-color: #4CAF50;
+
+        color: white;
+
+        text-decoration: none;
+
+        padding: 15px;
+
+        margin-bottom: 12px;
+
+        border-radius: 12px;
+
+        font-size: 1.1rem;
+
+        font-weight: 600;
+
+        box-shadow: 0 4px #2E7D32;
+
+        transition: transform 0.1s;
+
+}
+
+ 
+
+.menu-btn:active {
+
+        transform: translateY(4px);
+
+        box-shadow: 0 0 #2E7D32;
+
+}
+
+ 
+
+.menu-btn span { margin-right: 10px; }
+
+ 
+
+/* KHU VỰC CHƠI GAME */
+
+#question-area {
+
+        font-size: 3.5rem;
+
+        min-height: 150px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        color: #333;
+
+        margin: 20px 0;
+
+        flex-wrap: wrap;
+
+}
+
+ 
+
+.star-icon { color: #FFD700; text-shadow: 2px 2px 0 #ddd; margin: 5px; }
+
+ 
+
+.grid-2x2 {
+
+        display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+
+        margin-top: auto;
+
+}
+
+ 
+
+.option-btn {
+
+        background-color: #2196F3;
+
+        color: white;
+
+        border: none;
+
+        padding: 20px;
+
+        font-size: 2rem;
+
+        border-radius: 15px;
+
+        cursor: pointer;
+
+        font-family: inherit;
+
+        box-shadow: 0 4px #1565C0;
+
+}
+
+.option-btn:active { transform: translateY(4px); box-shadow: none; }
+
+ 
+
+.correct { background-color: #4CAF50 !important; box-shadow: 0 4px #2E7D32 !important; }
+
+.wrong { background-color: #F44336 !important; opacity: 0.6; box-shadow: 0 4px #C62828 !important; }
+
+
+ 
+
+h2 {
+
+        text-align: center;
+
+        color: #333;
+
+        margin-bottom: 25px;
+
+}
+
+ 
+
+/* CÁC NHÓM LỚP */
+
+.grade-group {
+
+        margin-bottom: 30px;
+
+}
+
+ 
+
+.grade-title {
+
+        font-size: 1.1rem;
+
+        font-weight: 600;
+
+        color: #555;
+
+        margin-bottom: 10px;
+
+        border-left: 5px solid #FF9800;
+
+        padding-left: 10px;
+
+}
+
+ 
